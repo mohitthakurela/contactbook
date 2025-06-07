@@ -1,19 +1,25 @@
-# Country Population Analyzer 🌍
+# 📇 Contact Book Manager
 
 ## Overview
-This project fetches data about countries using the **RestCountries API** and processes it to determine population statistics. It outputs a ranked list of the top 5 most populous countries and saves the results to a CSV file.
+This project is a **Contact Book Manager** built using **Python**. It allows users to **store, search, edit, delete, and export contacts** to CSV format. The contacts are stored in a JSON file for persistence.
 
 ## Features
-- Retrieves country data including **name, capital, and population**.
-- Sorts countries by population in descending order.
-- Provides summary statistics (total countries, total population, average population).
-- Saves the **top 5 most populous countries** to a CSV file.
+- **Add New Contacts** (Name, Phone Number, Email, Address)
+- **Search Contacts** by Name or Phone Number
+- **Edit Contacts** based on index selection
+- **View All Contacts** in a formatted list
+- **Delete Contacts** securely
+- **Validate Mobile Numbers** to ensure correctness
+- **Export Contacts** to a CSV file for easy sharing
 
 ## Dependencies
 Ensure you have **Python 3.x** installed along with:
-- `requests` (for making API calls)
-- `csv` (for handling CSV output)
+- `json` (for data storage)
+- `csv` (for exporting)
+- `requests` (if needed for any external API use)
 
-To install missing dependencies, run:
-```bash
-pip install requests
+## Usage
+1. Clone this repository.
+2. Run the script:
+   ```bash
+   python contact_book.py
